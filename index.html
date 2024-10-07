@@ -146,15 +146,6 @@
               </a>
             </div>
           </div>
-
-          <div class="home__scroll">
-            <a href="#about" class="home__scroll-button button--flex">
-              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-              <span class="home__scroll-name">Scroll Down</span>
-              <i class="uil uil-arrow-down home__scroll-arrow"></i>
-            </a>
-          </div>
-        </div>
       </section>
 
       <!--==================== ABOUT ====================-->
@@ -543,7 +534,7 @@
         <div class="services__container container grid">
           <!--==================== SERVICES 1 ====================-->
           <div class="services__content">
-            <div>
+            <div class="services__content-visible">
               <i class="uil uil-web-grid services__icon"></i>
               <h3 class="services__title">
                 Ui/Ux <br />
@@ -590,7 +581,7 @@
 
           <!--==================== SERVICES 2 ====================-->
           <div class="services__content">
-            <div>
+            <div class="services__content-visible">
               <i class="uil uil-arrow services__icon"></i>
               <h3 class="services__title">
                 Frontend <br />
@@ -637,7 +628,7 @@
 
           <!--==================== SERVICES 3 ====================-->
           <div class="services__content">
-            <div>
+            <div class="services__content-visible">
               <i class="uil uil-pen services__icon"></i>
               <h3 class="services__title">
                 Branding <br />
@@ -798,7 +789,7 @@
         <h2 class="section__title">Testimonial</h2>
         <span class="section__subtitle">My client saying</span>
         
-        <dic class="testimonial__container container swiper-container swiper mySwiper">
+        <div class="testimonial__container container swiper-container swiper mySwiper">
           <div  class="swiper-wrapper">
             <!--==================== TESTIMONIAL 1 ====================-->
             <div class="testimonial__content swiper-slide">
@@ -810,14 +801,14 @@
                     <h3 class="testimonial__name">Sara Smith</h3>
                     <span class="testimonial__client">Client</span>
                   </div>
-                </div>
 
-                <div>
-                  <i class="uil uil-star testimonial__icon-star"></i>
-                  <i class="uil uil-star testimonial__icon-star"></i>
-                  <i class="uil uil-star testimonial__icon-star"></i>
-                  <i class="uil uil-star testimonial__icon-star"></i>
-                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <div class="testimonial-icon-star">
+                    <i class="uil uil-star testimonial__icon-star"></i>
+                    <i class="uil uil-star testimonial__icon-star"></i>
+                    <i class="uil uil-star testimonial__icon-star"></i>
+                    <i class="uil uil-star testimonial__icon-star"></i>
+                    <i class="uil uil-star testimonial__icon-star"></i>
+                  </div>
                 </div>
               </div>
 
@@ -833,14 +824,13 @@
                     <h3 class="testimonial__name">Matt Robinson</h3>
                     <span class="testimonial__client">Client</span>
                   </div>
-                </div>
-
-                <div>
-                  <i class="uil uil-star testimonial__icon-star"></i>
-                  <i class="uil uil-star testimonial__icon-star"></i>
-                  <i class="uil uil-star testimonial__icon-star"></i>
-                  <i class="uil uil-star testimonial__icon-star"></i>
-                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <div class="testimonial-icon-star">
+                    <i class="uil uil-star testimonial__icon-star"></i>
+                    <i class="uil uil-star testimonial__icon-star"></i>
+                    <i class="uil uil-star testimonial__icon-star"></i>
+                    <i class="uil uil-star testimonial__icon-star"></i>
+                    <i class="uil uil-star testimonial__icon-star"></i>
+                  </div>
                 </div>
               </div>
 
@@ -856,14 +846,13 @@
                     <h3 class="testimonial__name">Raul Harris</h3>
                     <span class="testimonial__client">Client</span>
                   </div>
-                </div>
-
-                <div>
-                  <i class="uil uil-star testimonial__icon-star"></i>
-                  <i class="uil uil-star testimonial__icon-star"></i>
-                  <i class="uil uil-star testimonial__icon-star"></i>
-                  <i class="uil uil-star testimonial__icon-star"></i>
-                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <div class="testimonial-icon-star">
+                    <i class="uil uil-star testimonial__icon-star"></i>
+                    <i class="uil uil-star testimonial__icon-star"></i>
+                    <i class="uil uil-star testimonial__icon-star"></i>
+                    <i class="uil uil-star testimonial__icon-star"></i>
+                    <i class="uil uil-star testimonial__icon-star"></i>
+                  </div>
                 </div>
               </div>
 
@@ -872,7 +861,7 @@
           </div>
           <!---------Add Pagination--------->
           <div class="swiper-pagination swiper-pagination-testimonial"></div>
-        </dic>
+        </div>
       </section>
 
       <!--==================== CONTACT ME ====================-->
